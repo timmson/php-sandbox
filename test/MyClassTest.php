@@ -1,6 +1,7 @@
 <?php
+namespace ru\timmson;
+
 use PHPUnit\Framework\TestCase;
-use ru\timmson\MyClass;
 
 class MyClassTest extends TestCase
 {
