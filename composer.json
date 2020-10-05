@@ -19,5 +19,8 @@
         "psr-4": {
             "ru\\timmson\\" : "src"
         }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit test"
     }
 }
