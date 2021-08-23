@@ -1,17 +1,9 @@
 <?php
 
-require_once (__DIR__ ."/vendor/autoload.php");
+use ru\timmson\MyClass;
 
-$smarty = new Smarty();
+require_once(__DIR__ . "/vendor/autoload.php");
 
-$smarty->setTemplateDir(__DIR__ ."/templates/");
-$smarty->setCompileDir(__DIR__ ."/templates_c/");
-$smarty->setConfigDir(__DIR__ ."/configs/");
-$smarty->setCacheDir(__DIR__ ."/cache/");
+$myClass = new MyClass();
 
-$smarty->assign("message","Hello, World");
-
-//** un-comment the following line to show the debug console
-//$smarty->debugging = true;
-
-$smarty->display("index.tpl");
+echo "Hello " . $myClass->sum(10, 20);
