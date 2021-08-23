@@ -5,7 +5,7 @@ Sandbox for PHP apps
 
 ```bash
 #PHP and composer
-sudo apt install php-cli php-xml php-curl php-mbstring composer
+sudo apt install php-cli php-mbstring composer
 
 # Install dependencies
 composer install
