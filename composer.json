@@ -21,7 +21,8 @@
         "test" : "vendor/bin/phpunit test"
     },
     "require": {
-        "ext-mbstring": "^7.4",
+        "php": ">=7.4",
+        "ext-mbstring": "*",
         "laravel/installer": "^4.2"
     }
 }
